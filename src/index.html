@@ -6,9 +6,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <section id="split_screen">
+      <div id="left">
+        <h1>ÉLITE CASINO </h1>
+        <p> ¡ Lugar en dónde aseguramos que tu diversión será en grande !</p><br>
+      <label for="textencode" id="textencode">Captura el mensaje: </label>
+      <input type="text" id="message_encode" name="message1" pattern="[A-Z]"><br>
+      <label for="numposition1" id="numposition1">Número de posiciones: </label>
+      <input type="number" maxlength="2" id="position_encode" name="position1" pattern="[0-9]"><br>
+      <input type="button" id="button_encode" value="Codificar mensaje"><br>
+      <label for="textdecode" id="textdecode">Captura el mensaje: </label>
+      <input type="text" id="message_decode" name="message2" pattern="[A-Z]"><br>
+      <label for="numposition2" id="numposition2">Número de posiciones: </label>
+      <input type="number" maxlength= "2" id="position_decode" name="position2" pattern="[0-9]"><br>
+      <input type="button" id="button_decode" value="Decodificar mensaje">
+      
+      
+      
+      </div>
+      <div class="right">
+        
+      </div>
+    </section>
+    <form>
+    <div id="container">
+      <!--<h1 class="tit1">
+        CASINO ÉLITE
+      </h1>
+      <img src="casino.jpeg" class="image"> //-->
+
+      <!--<p class="description">
+      En casino ELITE nos preocupamos por la seguridad de nuestros clientes. 
+       
+      </p><br>
+      <input type="button" id="button_encode" value="Codificar mensaje">
+      <input type="text" id="message_encode" name="message1"><br>
+      input type="button" id="button_positione" value="Posiciones">
+      <input type="text" id="position_encode" name="position1"><br>
+      <input type="button" id="button_decode" value="Descodificar mensaje">
+      <input type="text" id="message_decode" name="message2"><br>
+      <input type="button" id="button_positiond" value="Posiciones">
+      <input type="text" id="position_decode" name="position2"><br> //-->
+  </div>
+  
+  </form>  
+  
+ 
     <script src="index.js" type="module"></script>
   </body>
 </html>
