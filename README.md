@@ -32,22 +32,24 @@ En la pantalla principal se cuenta con lo siguiente:
 * La opción para capturar el mensaje que se desea decodificar.
 * El número de posiciones que se debe desplazar para descifrar el mensaje.
 
-![pantalla principal](https://user-images.githubusercontent.com/117471228/227294094-83d99b76-5380-4c4c-a704-9d4a3038a4ad.jpg)
+![pantalla principal](https://user-images.githubusercontent.com/117471228/227306497-cfe4ec0f-a9fa-4ffb-b6c0-0b1c71a0cd36.jpg)
+
 
 ## 3. Cifrar mensaje
 
 En esta pantalla se muestra como funciona cuando el usuario desea cifrar un mensaje. Se le solicita el mensaje que desea codificar
 así como el número de posiciones de desplazamiento:
 
-![pantalla codificar](https://user-images.githubusercontent.com/117471228/227295579-b1f829d8-1bd3-4ed3-8edb-e99b68092efb.jpg)
+![pantalla codificar](https://user-images.githubusercontent.com/117471228/227306597-dd101fc6-aa72-4b82-9e6a-0510c12c485c.jpg)
+
 
 ## 4. Descifrar mensaje
 
 En esta pantalla se muestra como funciona cuando el usuario desea descifrar un mensaje. Se le solicita el mensaje que desea decodificar
 así como el número de posiciones de desplazamiento:
 
-![pantalla decodificar](https://user-images.githubusercontent.com/117471228/227296865-4fbc1e37-a49b-4472-8985-a912bb788614.jpg)
-R7u8k9o3PbT3_QdyoBW_RX8rnV)
+![pantalla decodificar](https://user-images.githubusercontent.com/117471228/227306712-32cfae53-37ad-42cd-9ad7-3a4d979f57f9.jpg)
+
 
 ## 5. Enlace página
 
