@@ -1,15 +1,15 @@
 
 
-.image {
-    /*width: 450px;
-    height: 350px;*/
+/*.image {
+   width: 450px;
+    height: 350px;
 }
 
 form {
     /*text-align: center;
     display:flex;
     flex-direction: column;
-    align-items:center;*/
+    align-items:center;
 }
 
 #container {
@@ -22,8 +22,8 @@ form {
     top: 40%;
     transform: translateX(-50%) translateY(-50%);
     
-    gap: 3px;*/
-}
+    gap: 3px;
+}*/
 
 .description {
     /*font-size: 18px;
@@ -44,7 +44,7 @@ body {
 #left {
     background: #0a3d62;
     height: 100vh;
-    width:30%;
+    width:40%;
     display:grid;
     justify-content: center;
     justify-items: center;
@@ -54,7 +54,7 @@ body {
     background: url(casino.jpeg);
     background-size: cover;
     background-position: center;
-    width:70%;
+    width:60%;
     height: 100vh;
 }
 
@@ -64,28 +64,35 @@ h1 {
     font-size: 50px;
     width: 100%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    top: 30%;
-    padding-top: 10%;
+    top: 10%;
+    padding-top: 5%;
     
     color: #f6b93b;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+}
+
 p {
     font-size: 19px;
-    line-height: 30px;
+    line-height: 20px;
     width: 70%;
     color: rgb(15, 0, 0);
     margin: auto;
-    text-align: center;
+    text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: bold;
-    color:white;
-    text-align: center;
-    font-style: italic;
+    color:rgb(97, 188, 230);
+    
+    font: bolder;
 }
+
+
 
 
 
@@ -104,6 +111,7 @@ p {
     cursor: pointer;
     border-radius: 10px;
     width: fit-content;
+    box-shadow: 10px 10px 10px black;
 
 }
 #button_decode {
@@ -117,6 +125,7 @@ p {
     cursor: pointer;
     border-radius: 10px;
     width: fit-content;
+    box-shadow: 10px 10px 10px black;
 }
 #numposition1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -127,12 +136,13 @@ p {
     color: white;
 }
 #message_encode{
-    
+    border-radius: 5px;
     width:300px;
     height: 20px;
     box-shadow: 2px 2px 2px black;
 }
 #message_decode{
+    border-radius: 5px;    
     box-shadow: 2px 2px 2px black;
     width:300px;
     height: 20px;
@@ -144,4 +154,16 @@ p {
 #textdecode {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+#position_encode {
+    box-shadow: 2px 2px 2px black;
+    width:150px;
+    height: 20px;
+    border-radius: 5px;
+}
+#position_decode {
+    box-shadow: 2px 2px 2px black;
+    width:150px;
+    height: 20px;
+    border-radius: 5px;
 }
