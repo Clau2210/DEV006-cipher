@@ -6,7 +6,7 @@
 * [2. Pantalla principal](#2-pantalla-principal)
 * [3. Cifrar mensaje](#3-cifrar-mensaje)
 * [4. Descifrar mensaje](#4-descifrar-mensaje)
-* [5. Enlace página](#4-enlace-página)
+* [5. Enlace página](#5-enlace-página)
 
 ***
 
